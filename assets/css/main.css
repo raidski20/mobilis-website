@@ -1,0 +1,107 @@
+/* Site Primary Color */
+.text-sky{
+    color: #66D2B4;
+}
+.bg-sky{
+    background-color: #66D2B4;
+}
+.btn-sky{
+    color: #fff;
+    background-color: #66D2B4;
+    border-color: #66D2B4;
+}
+/* ******** */
+
+
+/* Navbar */
+
+.site-navbar {
+    top: 0px;
+    left: 0px;
+    padding: 20px 0;
+}
+
+.site-navbar .navbar-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.site-navbar .navbar-sections .navbar-section-links .nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.site-navbar .navbar-sections .navbar-section-links .nav-links .nav-link:nth-child(4) {
+    color: #66D2B4;
+}
+
+.site-navbar .navbar-sections .navbar-section-brand .menu-toggler {
+    position: relative;
+    top: 5px;
+    display: none;
+    font-size: 30px;
+    margin: 0 0 0 70px;
+    font-weight: bold;
+}
+
+.site-navbar .navbar-sections .navbar-section-btn .contact-btn {
+    width: 210px;
+    height: 50px;
+    box-shadow: 0px 12px 33px #0084FF33;
+    border-radius: 27px;
+    opacity: 1;
+    padding: 0.7rem 0.75rem;
+}
+
+/* End Navbar */
+
+
+/* Responsiveness */
+
+@media (max-width: 991.98px) {
+
+    /* Navbar Responsiveness */
+
+    .site-navbar .navbar-sections {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-navbar .navbar-sections .navbar-section-brand {
+        order: -1;
+    }
+
+    .site-navbar .navbar-sections .navbar-section-brand .menu-toggler {
+        display: inline-block;
+    }
+
+    .site-navbar .navbar-sections .navbar-section-links {
+        margin: 15px 0 0 0;
+        padding: 15px;
+    }
+
+    .site-navbar .navbar-sections .navbar-section-links .nav-links {
+        flex-direction: column;
+        border: 2px solid #66D2B4;
+        background-color: #66D2B4;
+        border-radius: 15px 50px;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .site-navbar .navbar-sections .navbar-section-links .nav-links .nav-link:nth-child(4) {
+        color: #fff;
+    }
+
+    .site-navbar .navbar-sections .navbar-section-btn {
+        display: none;
+    }
+
+    /* End Navbar Responsiveness */
+}
+
+/* End Responsiveness */
