@@ -1,4 +1,4 @@
-/* Site Primary Color */
+/* Site Colors */
 .text-sky{
     color: #66D2B4;
 }
@@ -9,6 +9,18 @@
     color: #fff;
     background-color: #66D2B4;
     border-color: #66D2B4;
+}
+
+.text-gray{
+    color: #7A7A7A;
+}
+.bg-gray{
+    background-color: #7A7A7A;
+}
+.btn-gray{
+    color: #fff;
+    background-color: #7A7A7A;
+    border-color: #7A7A7A;
 }
 /* ******** */
 
@@ -107,6 +119,12 @@ img {
     box-shadow: 0px 3px 89px #00000029;
 }
 /* End Hero Section  */
+
+/* Social Medias */
+.social-media {
+    padding: 60px 40px;
+}
+/* End Social Medias  */
 
 
 /* Responsiveness */
