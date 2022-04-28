@@ -126,6 +126,24 @@ img {
 }
 /* End Social Medias  */
 
+/* Services */
+.services {
+    padding: 40px 40px;
+}
+
+.service-card {
+    display: flex;
+    border-radius: 15px;
+    border-color: #fff;
+    background: #fff;
+    box-shadow: 0px 12px 33px #00000029;
+    margin-bottom: 30px;
+}
+.service-card .service-card-body h4 {
+    color: #0382F9;
+}
+/* End Services */
+
 
 /* Responsiveness */
 
@@ -169,6 +187,21 @@ img {
     }
 
     /* End Navbar Responsiveness */
+}
+
+@media (max-width: 767.98px) {
+    .service-card {
+        display: block;
+    }
+
+    .service-card .service-card-img {
+        margin-bottom: 20px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /* End Responsiveness */
