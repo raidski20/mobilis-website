@@ -11,6 +11,12 @@
     border-color: #66D2B4;
 }
 
+.btn-sky-empty{
+    color: #66D2B4;
+    background-color: #fff;
+    border-color: #66D2B4;
+}
+
 .text-gray{
     color: #7A7A7A;
 }
@@ -165,6 +171,56 @@ img {
 }
 /* End Offers */
 
+/* Journey */
+.journey {
+    /* padding: 30px 15px; */
+    padding: 40px 40px;
+}
+.journey .journey-offer {
+    padding: 20px;
+    box-shadow: 0px 3px 14px #D0D6E63D;
+    background-color: #D0D6E63D;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.journey .journey-offer img {
+    border-radius: 10px;
+}
+
+.journey .journey-offer .btn-sky-empty,  
+.journey .journey-offer .btn-sky {
+    box-shadow: 0px 3px 14px #D0D6E6;
+}
+
+.journey .mobo .mobo-ears {
+    z-index: 1;
+    top: -15px;
+    margin-left: 23px;
+}
+
+.journey .mobo .mobo-eyes {
+    z-index: 1;
+    top: 22px;
+    margin-left: 20px;
+}
+
+.journey .title-underline {
+    position: relative;
+}
+
+.journey .svg-line {
+    position: absolute;
+    top: 22px;
+    left: -20px;
+}
+
+.journey .download-app-btn {
+    box-shadow: 0px 3px 14px #D0D6E6;
+    border-radius: 38px;
+    margin-left: 20px;
+}
+/* End Journey */
+
 
 /* Responsiveness */
 
@@ -219,9 +275,21 @@ img {
         margin-bottom: 20px;
     }
 
-    img {
-        max-width: 100%;
-        height: auto;
+    .journey .journey-offer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .title-underline {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 383.98px) {
+    .journey .download-app-btn {
+        margin-bottom: 25px;
     }
 }
 
