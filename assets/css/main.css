@@ -144,6 +144,27 @@ img {
 }
 /* End Services */
 
+/* Offers */
+.offers {
+    padding: 30px 0;
+}
+.offers img{
+    background-image: url("../img/offers-img-bg.svg");
+}
+
+.offers .offer-box {
+    border: 1.5px solid #CBCEDC; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.offers .offer-box i {
+    color: #66D2B4;
+    padding-right: 25px;
+}
+/* End Offers */
+
 
 /* Responsiveness */
 
