@@ -52,6 +52,10 @@ img {
     font-size: 20px;
 }
 
+.opacity-0 {
+    opacity: 0;
+}
+
 /* End Global Settings  */
 
 .social-media,
@@ -75,6 +79,10 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.site-navbar .navbar-sections .navbar-section-links {
+    transition: all 1s linear;
 }
 
 .site-navbar .navbar-sections .navbar-section-links .nav-links {
@@ -257,6 +265,12 @@ img {
 
 /* Responsiveness */
 
+@media (min-width: 992px) {
+    .site-navbar .navbar-sections .navbar-section-links {
+        opacity: 1;
+    }
+}
+
 @media (max-width: 991.98px) {
 
     /* Navbar Responsiveness */
@@ -273,7 +287,7 @@ img {
     .site-navbar .navbar-sections .navbar-section-brand .menu-toggler {
         display: inline-block;
     }
-
+    
     .site-navbar .navbar-sections .navbar-section-links {
         margin: 15px 0 0 0;
         padding: 15px;
