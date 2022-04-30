@@ -37,7 +37,30 @@ img {
     height: auto;
 }
 
+.icon-bg {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background: #F3F4F6;
+    border-radius: 50%;
+}
+
+.icon-ele {
+    line-height: 50px !important;
+    font-size: 20px;
+}
+
 /* End Global Settings  */
+
+.social-media,
+.services,
+.journey,
+.newsletter,
+.contact-us {
+    padding: 40px 40px;
+}
 
 /* Navbar */
 
@@ -126,17 +149,7 @@ img {
 }
 /* End Hero Section  */
 
-/* Social Medias */
-.social-media {
-    padding: 60px 40px;
-}
-/* End Social Medias  */
-
 /* Services */
-.services {
-    padding: 40px 40px;
-}
-
 .service-card {
     display: flex;
     border-radius: 15px;
@@ -159,7 +172,7 @@ img {
 }
 
 .offers .offer-box {
-    border: 1.5px solid #CBCEDC; 
+    border: 1.5px solid #CBCEDC;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -172,10 +185,6 @@ img {
 /* End Offers */
 
 /* Journey */
-.journey {
-    /* padding: 30px 15px; */
-    padding: 40px 40px;
-}
 .journey .journey-offer {
     padding: 20px;
     box-shadow: 0px 3px 14px #D0D6E63D;
@@ -187,7 +196,7 @@ img {
     border-radius: 10px;
 }
 
-.journey .journey-offer .btn-sky-empty,  
+.journey .journey-offer .btn-sky-empty,
 .journey .journey-offer .btn-sky {
     box-shadow: 0px 3px 14px #D0D6E6;
 }
@@ -221,12 +230,29 @@ img {
 }
 /* End Journey */
 
-/* newsletter */
-.newsletter {
-    padding: 40px 40px;
+.horizontal-line {
+    padding: 10px 40px 40px;
 }
-/* End Newsletter */
 
+/* Contact-us */
+.contact-us form input,
+.contact-us form textarea {
+    border: none;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #292D32B0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #292D32CF;
+}
+
+.contact-us form input:focus, 
+.contact-us form textarea:focus {
+    border: none;
+    border-bottom: 5px solid #66D2B4;
+    box-shadow: none;
+    color: #000;
+}
+/* End Contact-us */
 
 /* Responsiveness */
 
